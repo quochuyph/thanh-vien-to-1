@@ -44,11 +44,15 @@ section {
 .content {
     display: flex;
     max-width: 70%;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .content p {
     transition: delay 200ms;
-    padding: 10px
+    padding: 10px;
+    max-width: 500px;
+    text-align: justify;
 }
 
 .bio {
@@ -56,8 +60,9 @@ section {
 }
 
 img {
-    max-height: 50vh;
-    max-width: 50vh;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
 }
 
 @media(prefers-reduced-motion) {
