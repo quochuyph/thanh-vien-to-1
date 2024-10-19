@@ -38,6 +38,8 @@ section {
 .info {
     display: flex;
     align-items: inherit;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .info p {
