@@ -21,6 +21,17 @@ section {
     min-height: 100vh;
 }
 
+.footer {
+    padding: 2rem;
+    background: #03a9f440;
+    color: #111;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
+
 .title {
     font-size: 10vh;
     color: #fff;
@@ -75,6 +86,15 @@ section {
 
 .bio {
     display: block;
+}
+
+.copyright {
+    text-decoration: none;
+    color: black;
+}
+
+.copyright:hover {
+    color: rgba(117, 91, 202, 0.785);
 }
 
 img {
