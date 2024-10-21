@@ -35,11 +35,6 @@ section {
     color: #111;
 }
 
-.vtv {
-    font-size: 5vh;
-    color: #111;
-}
-
 .info {
     display: flex;
     align-items: inherit;
